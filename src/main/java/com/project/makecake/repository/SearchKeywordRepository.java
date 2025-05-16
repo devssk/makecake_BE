@@ -1,6 +1,6 @@
 package com.project.makecake.repository;
 
-import com.project.makecake.model.SearchKeyword;
+import com.project.makecake.domain.store.SearchKeyword;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 

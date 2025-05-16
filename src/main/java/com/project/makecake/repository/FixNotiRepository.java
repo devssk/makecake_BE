@@ -1,6 +1,6 @@
 package com.project.makecake.repository;
 
-import com.project.makecake.model.FixNoti;
+import com.project.makecake.domain.noti.FixNoti;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;

@@ -1,6 +1,6 @@
 package com.project.makecake.dto.comment;
 
-import com.project.makecake.model.Comment;
+import com.project.makecake.domain.post.Comment;
 import lombok.Getter;
 
 @Getter

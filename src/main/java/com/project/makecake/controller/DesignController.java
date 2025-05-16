@@ -2,7 +2,7 @@ package com.project.makecake.controller;
 
 import com.project.makecake.dto.DesignResponseDto;
 import com.project.makecake.security.UserDetailsImpl;
-import com.project.makecake.service.DesignService;
+import com.project.makecake.service.order.DesignService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.core.annotation.AuthenticationPrincipal;
 import org.springframework.web.bind.annotation.*;

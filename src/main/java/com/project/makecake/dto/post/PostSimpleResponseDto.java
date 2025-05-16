@@ -1,6 +1,6 @@
 package com.project.makecake.dto.post;
 
-import com.project.makecake.model.Post;
+import com.project.makecake.domain.post.Post;
 import lombok.Builder;
 import lombok.Getter;
 

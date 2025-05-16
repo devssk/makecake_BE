@@ -1,6 +1,6 @@
 package com.project.makecake.repository;
 
-import com.project.makecake.model.CakeMenu;
+import com.project.makecake.domain.product.CakeMenu;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;

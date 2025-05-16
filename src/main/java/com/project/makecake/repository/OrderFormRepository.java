@@ -1,7 +1,7 @@
 package com.project.makecake.repository;
 
-import com.project.makecake.model.OrderForm;
-import com.project.makecake.model.Store;
+import com.project.makecake.domain.order.OrderForm;
+import com.project.makecake.domain.store.Store;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 

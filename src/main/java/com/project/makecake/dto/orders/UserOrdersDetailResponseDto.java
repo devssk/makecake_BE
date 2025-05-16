@@ -1,6 +1,6 @@
 package com.project.makecake.dto.orders;
 
-import com.project.makecake.model.UserOrders;
+import com.project.makecake.domain.order.UserOrders;
 import lombok.Builder;
 import lombok.Getter;
 

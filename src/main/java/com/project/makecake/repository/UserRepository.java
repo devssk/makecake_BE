@@ -1,7 +1,7 @@
 package com.project.makecake.repository;
 
 import com.project.makecake.enums.UserRoleEnum;
-import com.project.makecake.model.User;
+import com.project.makecake.domain.user.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;

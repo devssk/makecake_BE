@@ -1,6 +1,6 @@
 package com.project.makecake.controller.backoffice;
 
-import com.project.makecake.model.Cake;
+import com.project.makecake.domain.product.Cake;
 import com.project.makecake.service.backoffice.BOCakeService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.access.annotation.Secured;

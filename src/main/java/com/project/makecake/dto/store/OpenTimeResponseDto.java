@@ -1,6 +1,6 @@
 package com.project.makecake.dto.store;
 
-import com.project.makecake.model.OpenTime;
+import com.project.makecake.domain.store.OpenTime;
 import lombok.Getter;
 import lombok.Setter;
 

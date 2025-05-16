@@ -1,8 +1,8 @@
 package com.project.makecake.repository;
 
-import com.project.makecake.model.Cake;
-import com.project.makecake.model.CakeLike;
-import com.project.makecake.model.User;
+import com.project.makecake.domain.product.Cake;
+import com.project.makecake.domain.product.CakeLike;
+import com.project.makecake.domain.user.User;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.repository.JpaRepository;

@@ -1,6 +1,6 @@
 package com.project.makecake.dto.review;
 
-import com.project.makecake.model.Review;
+import com.project.makecake.domain.review.Review;
 import lombok.Getter;
 import lombok.Setter;
 

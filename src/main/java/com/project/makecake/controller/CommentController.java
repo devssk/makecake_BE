@@ -3,7 +3,7 @@ package com.project.makecake.controller;
 import com.project.makecake.dto.comment.CommentRequestDto;
 import com.project.makecake.dto.comment.CommentResponseDto;
 import com.project.makecake.security.UserDetailsImpl;
-import com.project.makecake.service.CommentService;
+import com.project.makecake.service.post.CommentService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.core.annotation.AuthenticationPrincipal;
 import org.springframework.web.bind.annotation.*;

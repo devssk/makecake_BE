@@ -1,13 +1,13 @@
 package com.project.makecake.repository;
 
-import com.project.makecake.model.PersonalNoti;
-import com.project.makecake.model.User;
+import com.project.makecake.domain.noti.PersonalNoti;
+import com.project.makecake.domain.user.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;
 import java.util.Optional;
 
-public interface PersonalNotiRepository extends JpaRepository<com.project.makecake.model.PersonalNoti,Long> {
+public interface PersonalNotiRepository extends JpaRepository<PersonalNoti,Long> {
 
     Optional<PersonalNoti> findByRecieveUserAndChecked(User user, boolean b);
     List<PersonalNoti> findTop30ByRecieveUserOrderByCreatedAtDesc(User user);

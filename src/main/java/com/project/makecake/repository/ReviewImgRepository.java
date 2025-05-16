@@ -1,7 +1,7 @@
 package com.project.makecake.repository;
 
-import com.project.makecake.model.Review;
-import com.project.makecake.model.ReviewImg;
+import com.project.makecake.domain.review.Review;
+import com.project.makecake.domain.review.ReviewImg;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;

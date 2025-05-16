@@ -1,6 +1,6 @@
 package com.project.makecake.security;
 
-import com.project.makecake.model.User;
+import com.project.makecake.domain.user.User;
 import com.project.makecake.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.core.userdetails.UserDetails;

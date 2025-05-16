@@ -3,7 +3,7 @@ package com.project.makecake.controller;
 import com.project.makecake.dto.noti.NewNotiResponseDto;
 import com.project.makecake.dto.noti.NotiResponseDto;
 import com.project.makecake.security.UserDetailsImpl;
-import com.project.makecake.service.NotiService;
+import com.project.makecake.service.noti.NotiService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.core.annotation.AuthenticationPrincipal;
 import org.springframework.web.bind.annotation.GetMapping;

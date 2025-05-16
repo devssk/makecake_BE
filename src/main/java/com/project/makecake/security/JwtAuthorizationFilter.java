@@ -4,7 +4,7 @@ import com.auth0.jwt.JWT;
 import com.auth0.jwt.algorithms.Algorithm;
 import com.project.makecake.exceptionhandler.CustomException;
 import com.project.makecake.exceptionhandler.ErrorCode;
-import com.project.makecake.model.User;
+import com.project.makecake.domain.user.User;
 import com.project.makecake.repository.UserRepository;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.security.authentication.AuthenticationManager;

@@ -5,7 +5,7 @@ import com.project.makecake.dto.cake.CakeSimpleResponseDto;
 import com.project.makecake.dto.like.LikeRequestDto;
 import com.project.makecake.dto.like.LikeResponseDto;
 import com.project.makecake.security.UserDetailsImpl;
-import com.project.makecake.service.CakeService;
+import com.project.makecake.service.product.CakeService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.core.annotation.AuthenticationPrincipal;
 import org.springframework.web.bind.annotation.*;

@@ -1,7 +1,7 @@
 package com.project.makecake.controller;
 
 import com.project.makecake.dto.orders.OrderReadyStoreResponseDto;
-import com.project.makecake.service.OrderFormService;
+import com.project.makecake.service.order.OrderFormService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;

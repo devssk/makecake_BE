@@ -3,7 +3,7 @@ package com.project.makecake.controller;
 import com.project.makecake.dto.orders.UserOrderRequestDto;
 import com.project.makecake.dto.orders.UserOrdersDetailResponseDto;
 import com.project.makecake.security.UserDetailsImpl;
-import com.project.makecake.service.UserOrdersService;
+import com.project.makecake.service.order.UserOrdersService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.core.annotation.AuthenticationPrincipal;

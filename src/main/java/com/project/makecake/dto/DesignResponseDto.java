@@ -1,6 +1,6 @@
 package com.project.makecake.dto;
 
-import com.project.makecake.model.Design;
+import com.project.makecake.domain.order.Design;
 import lombok.Getter;
 
 @Getter

@@ -1,6 +1,6 @@
 package com.project.makecake.dto.store;
 
-import com.project.makecake.model.Cake;
+import com.project.makecake.domain.product.Cake;
 import lombok.Builder;
 import lombok.Getter;
 

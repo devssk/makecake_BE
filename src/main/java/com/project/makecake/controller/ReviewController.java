@@ -2,7 +2,7 @@ package com.project.makecake.controller;
 
 import com.project.makecake.dto.review.ReviewResponseTempDto;
 import com.project.makecake.security.UserDetailsImpl;
-import com.project.makecake.service.ReviewService;
+import com.project.makecake.service.review.ReviewService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.core.annotation.AuthenticationPrincipal;
 import org.springframework.web.bind.annotation.*;

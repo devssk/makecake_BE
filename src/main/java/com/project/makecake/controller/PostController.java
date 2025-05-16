@@ -6,7 +6,7 @@ import com.project.makecake.dto.post.PostDetailResponseDto;
 import com.project.makecake.dto.post.PostRequestDto;
 import com.project.makecake.dto.post.PostSimpleResponseDto;
 import com.project.makecake.security.UserDetailsImpl;
-import com.project.makecake.service.PostService;
+import com.project.makecake.service.post.PostService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.core.annotation.AuthenticationPrincipal;
 import org.springframework.web.bind.annotation.*;

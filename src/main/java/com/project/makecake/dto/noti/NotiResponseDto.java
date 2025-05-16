@@ -1,7 +1,7 @@
 package com.project.makecake.dto.noti;
 
-import com.project.makecake.model.FixNoti;
-import com.project.makecake.model.PersonalNoti;
+import com.project.makecake.domain.noti.FixNoti;
+import com.project.makecake.domain.noti.PersonalNoti;
 import lombok.Builder;
 import lombok.Getter;
 

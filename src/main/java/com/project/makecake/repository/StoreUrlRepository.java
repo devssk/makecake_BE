@@ -1,6 +1,6 @@
 package com.project.makecake.repository;
 
-import com.project.makecake.model.StoreUrl;
+import com.project.makecake.domain.store.StoreUrl;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;
