@@ -59,3 +59,74 @@
 수정
 1. model 패키지명 -> domain
 2. domain 패키지 내부 도메인별 분류
+
+## api 정리
+- CakeController
+  - 케이크 조회
+  - 상세 조회
+  - 좋아요
+- CommentController
+  - 댓글 리스트 조회
+  - 생성
+  - 수정
+  - 삭제
+- DesignController
+  - 도안 저장
+  - 삭제
+- GuideController
+  - 주문 가능 매장 안내 조회
+- MypageController
+  - 나의 프로필 조회
+  - 내가 그린 도안 조회
+  - 내가 게시 안 한 도안 상세 조회
+  - 내가 좋아요한 게시글
+  - 내가 남긴 댓글
+  - 내가 좋아요한 매장
+  - 내가 남긴 후기
+  - 내가 좋아요한 케이크
+  - 주문하기 도안 조회
+- NotiController
+  - 새로운 알림 조회
+  - 알림 조회
+- OrderFormController
+  - 주문 가능 매장 리스트 조회
+  - 케이크 주문서 작성 조회
+- PostController
+  - 도안 게시글 조회
+  - 상세 조회
+  - 작성
+  - 수정
+  - 삭제
+  - 좋아요
+- ProfileController
+  - application.properties 조회
+- ReviewController
+  - 매장 후기 조회
+  - 생성
+  - 수정
+  - 삭제
+- StoreController
+  - 인기 매장
+  - 인기 케이크 5개 조회
+  - 최신 리뷰 조회
+  - 매장 검색 결과 반환
+  - 매장 검색 결과 반환2
+  - 지도에서 매장 정보 반환
+  - 매장 상세페이지 조회
+  - 매장 케이크 조회
+  - 매장 리뷰 조회
+  - 매장 좋아요
+- UserController
+  - 회원가입
+  - username 중복검사
+  - nickname 중복검사
+  - 로그인 체크
+  - 프로필 수정
+  - 회원탈퇴
+  - 이미지 업로드
+  - 소셜 로그인
+- UserOrdersController
+  - 케이크 주문서 작성
+  - 사용자가 작성한 주문서 상세 조회
+  - 작성한 주문서 삭제
+  - 주문서의 도안 전송
